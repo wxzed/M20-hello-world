@@ -1,0 +1,12 @@
+{
+  "name": "Hello World",
+  "version": "1.0.0",
+  "description": "一个简单的 Hello World 应用示例，演示 M20 应用的基本结构",
+  "author": "M20 Team",
+  "category": "示例",
+  "icon": "icon.png",
+  "main_file": "main.py",
+  "tags": ["示例", "入门", "Hello World"],
+
+  "runtime": "uv"
+}

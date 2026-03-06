@@ -1,0 +1,15 @@
+[project]
+name = "m20-hello-world"
+version = "1.0.0"
+description = "一个简单的 Hello World 应用示例，演示 M20 应用的基本结构"
+requires-python = "==3.8.7"
+
+# 该应用自身需要的第三方依赖
+dependencies = [
+    "customtkinter>=5.0.0",
+    "pillow>=9.0.0",
+]
+
+[tool.uv]
+# 暂时不做额外配置，使用默认行为
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window title="Hello World" width="400" height="300">
+    <Frame id="main_frame" place_relx="0" place_rely="0" place_relwidth="1" place_relheight="1">
+        <Label 
+            id="hello_label"
+            text="Hello, World!"
+            font_size="24"
+            font_family="Arial"
+            place_relx="0.5" 
+            place_rely="0.2"
+            place_anchor="center"
+        />
+        <Label
+            id="description_label"
+            text="这是一个来自 GitHub 的应用示例"
+            font_size="12"
+            text_color="gray"
+            place_relx="0.5"
+            place_rely="0.4"
+            place_anchor="center"
+        />
+        <Button
+            id="hello_button"
+            text="点击我"
+            command="on_button_click"
+            place_relx="0.5"
+            place_rely="0.6"
+            place_anchor="center"
+            widget_width="120"
+            widget_height="40"
+            fg_color="#1976d2"
+            hover_color="#1565c0"
+        />
+    </Frame>
+</Window>
